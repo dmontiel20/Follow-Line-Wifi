@@ -238,10 +238,3 @@ mosquitto_sub -v -h 193.147.53.2 -p 21883 -t /SETR/2023/<ID_EQUIPO>/
 
 El repositorio contiene el archivo `WhatsApp Video 2024-12-19 at 12.01.36.mp4` que documenta el comportamiento dinámico en pista: seguimiento en curvas, control de tracción proporcional, cambio del LED RGB en tiempo real y parada limpia ante el obstáculo.
 
----
-
-## 👥 Autores
-
-Proyecto realizado en el marco de la asignatura **Sistemas Empotrados y de Tiempo Real (SETR)**.
-- Integrante 1 — [@usuario1](https://github.com/usuario1)
-- Integrante 2 — [@usuario2](https://github.com/usuario2)
