@@ -18,7 +18,6 @@ Este repositorio contiene la solución completa para el control reactivo y la te
 - [Protocolo IoT y Mensajería MQTT](#-protocolo-iot-y-mensajería-mqtt)
 - [Configuración y Despliegue](#-configuración-y-despliegue)
 - [Demostración](#-demostración)
-- [Autores](#-autores)
 
 ---
 
