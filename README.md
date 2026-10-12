@@ -72,15 +72,15 @@ El sistema autónomo cumple con los siguientes requerimientos:
 │   └── Arduino.ino          # Firmware de pruebas y control base de periféricos
 ├── ESP/
 │   └── ESP.ino              # Firmware base de enlace WiFi y puente serie para ESP32
-├── p4_setr/
-│   ├── p4_setr.ino          # Firmware principal: bucle de control, FSM y actuadores
+├── FollowLine/
+│   ├── FollowLine.ino       # Firmware principal: bucle de control, FSM y actuadores
 │   └── PID_Controller.h     # Implementación del algoritmo PID para lectura analógica de línea
 ├── wifiArduino/
 │   └── wifiArduino.ino      # Pruebas de sincronización y handshake con ESP vía serie
 ├── wifiESP/
 │   ├── pass.h               # Configuración de credenciales Wi-Fi y parámetros del broker
 │   └── wifiESP.ino          # Conexión Wi-Fi y cliente MQTT en ESP32
-├── WhatsApp Video ...mp4    # Demostración del robot en pista
+├── FollowLine.mp4           # Demostración del robot en pista
 └── README.md                # Documentación del proyecto
 ```
 
@@ -235,5 +235,5 @@ mosquitto_sub -v -h 193.147.53.2 -p 21883 -t /SETR/2023/<ID_EQUIPO>/
 
 ## 📹 Demostración
 
-El repositorio contiene el archivo `WhatsApp Video 2024-12-19 at 12.01.36.mp4` que documenta el comportamiento dinámico en pista: seguimiento en curvas, control de tracción proporcional, cambio del LED RGB en tiempo real y parada limpia ante el obstáculo.
+El repositorio contiene el archivo `FollowLine.mp4` que documenta el comportamiento dinámico en pista: seguimiento en curvas, control de tracción proporcional, cambio del LED RGB en tiempo real y parada limpia ante el obstáculo.
 
